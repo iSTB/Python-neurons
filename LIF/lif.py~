@@ -112,7 +112,7 @@ if name == "__main__":
 	for neuron in lnn.connections.keys():
 		spikes.append(sum(neuron.spikes))
 		katz.append(lnn.katz[neuron])
-		pr.append(lnn.pr[neuron])
+		pr.append(lnn.katz[neuron])
 		#print neuron.spikes
 
 
